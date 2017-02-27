@@ -11,5 +11,6 @@
   "hubot-shipit",
   "hubot-tell",
   "hubot-fliptable",
-  "hubot-pusheen"
+  "hubot-pusheen",
+  "hubot-google-hangouts"
 ]
