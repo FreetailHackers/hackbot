@@ -15,5 +15,6 @@
   "hubot-google-hangouts",
   "hubot-ask",
   "hubot-xkcd",
-  "hubot-answers"
+  "hubot-answers",
+  "hubot-auth"
 ]
