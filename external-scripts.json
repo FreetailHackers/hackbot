@@ -12,5 +12,8 @@
   "hubot-tell",
   "hubot-fliptable",
   "hubot-pusheen",
-  "hubot-google-hangouts"
+  "hubot-google-hangouts",
+  "hubot-ask",
+  "hubot-xkcd",
+  "hubot-answers"
 ]
