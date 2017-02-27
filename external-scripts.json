@@ -9,12 +9,10 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-tell",
   "hubot-fliptable",
   "hubot-pusheen",
   "hubot-google-hangouts",
   "hubot-ask",
-  "hubot-xkcd",
   "hubot-answers",
   "hubot-plusplus"
 ]
