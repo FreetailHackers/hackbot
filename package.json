@@ -5,6 +5,7 @@
   "author": "Yuriy Minin <me@yuriy.io>",
   "description": "Freetail Hackers Integration",
   "dependencies": {
+    "clark": "0.0.6",
     "hubot": "^2.19.0",
     "hubot-answers": "^0.2.1",
     "hubot-ask": "0.0.1",
@@ -26,6 +27,7 @@
     "hubot-slack": "^4.3.2",
     "hubot-tell": "*",
     "hubot-xkcd": "0.0.3",
+    "underscore": ">= 1.0.0",
     "xml2js": "^0.1.14"
   },
   "engines": {
