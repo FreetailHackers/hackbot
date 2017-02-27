@@ -1,14 +1,15 @@
 [
   "hubot-catme",
-  "hubot-darksky",
   "hubot-seen",
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
-  "hubot-google-translate",
   "hubot-pugme",
   "hubot-maps",
   "hubot-redis-brain",
   "hubot-rules",
-  "hubot-shipit"
+  "hubot-shipit",
+  "hubot-tell",
+  "hubot-mute",
+  "hubot-fliptable"
 ]
