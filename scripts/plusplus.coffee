@@ -17,8 +17,8 @@
 #   "foo++ for being awesome" or "foo++ cuz they are awesome".
 #
 # Commands:
-#   <name>++ [<reason>] - Increment score for a name (for a reason)
-#   <name>-- [<reason>] - Decrement score for a name (for a reason)
+#   hackbot <name>++ [<reason>] - Increment score for a name (for a reason)
+#   hackbot <name>-- [<reason>] - Decrement score for a name (for a reason)
 #   hubot score <name> - Display the score for a name and some of the reasons
 #   hubot top <amount> - Display the top scoring <amount>
 #   hubot bottom <amount> - Display the bottom scoring <amount>
