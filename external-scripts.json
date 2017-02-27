@@ -1,5 +1,7 @@
 [
   "hubot-catme",
+  "hubot-darksky",
+  "hubot-seen",
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
