@@ -1,15 +1,7 @@
 [
-  "hubot-catme",
-  "hubot-seen",
-  "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
-  "hubot-maps",
   "hubot-redis-brain",
-  "hubot-shipit",
-  "hubot-fliptable",
-  "hubot-pusheen",
-  "hubot-google-hangouts",
   "hubot-ask",
   "hubot-answers",
   "hubot-tweets"
