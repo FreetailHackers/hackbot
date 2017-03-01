@@ -8,7 +8,7 @@ hellos = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /(hey hackbot|hi hackbot|hello hackbot|)/i, (msg) ->
+  robot.hear /(hey hackbot|hi hackbot|hello hackbot)/i, (msg) ->
     hello = msg.random hellos
     msg.send hello.replace "%", msg.message.user.name
 
