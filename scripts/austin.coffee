@@ -24,7 +24,6 @@ responses = [
     "http://wheninatx.tumblr.com/post/21034077658/when-you-realize-the-frank-erwin-center-looks-like",
     "http://wheninatx.tumblr.com/post/21036899461/when-someone-suggests-foodheads-for-lunch",
     "http://wheninatx.tumblr.com/post/21034323097/when-your-friends-from-out-of-town-want-to-go-to",
-    "http://wheninatx.tumblr.com/post/21040547336/when-a-gluten-free-vegan-invites-you-to-a-potluck",
     "http://wheninatx.tumblr.com/post/21043081263/when-your-friend-tells-you-they-are-moving-to",
     "http://wheninatx.tumblr.com/post/21073343279/when-you-took-guadalupe-and-its-round-up-weekend",
     "http://wheninatx.tumblr.com/post/21084651596/when-someone-teaches-you-how-to-pronounce-manchaca",
@@ -48,7 +47,26 @@ responses = [
     "http://wheninatx.tumblr.com/post/24273343250/when-you-see-your-first-bluebonnet-in-spring",
     "http://wheninatx.tumblr.com/post/31344807349/two-words-cold-front",
     "http://wheninatx.tumblr.com/post/32345352467/when-youre-still-using-your-student-id-to-ride",
-    "http://wheninatx.tumblr.com/post/34253639589/when-you-re-enact-the-lion-king-every-time-youre"
+    "http://wheninatx.tumblr.com/post/34253639589/when-you-re-enact-the-lion-king-every-time-youre",
+    "http://wheninatx.tumblr.com/post/36920420754/the-first-girl-at-the-austin-hm",
+    "http://wheninatx.tumblr.com/post/28064197766/when-the-person-in-front-of-you-at-daily-juice",
+    "http://wheninatx.tumblr.com/post/24618574336/when-its-mosquito-season-again",
+    "http://wheninatx.tumblr.com/post/23290619824/when-its-bike-to-work-day-and-you-spot-an-open",
+    "http://wheninatx.tumblr.com/post/23165574121/when-youre-under-the-mopac-pedestrian-bridge-and",
+    "http://wheninatx.tumblr.com/post/22717604027/when-you-still-live-on-riverside-because-rent-is",
+    "http://wheninatx.tumblr.com/post/22605598493/when-the-air-conditioner-broke-in-your-car",
+    "http://wheninatx.tumblr.com/post/22333926733/when-a-co-worker-brings-sugar-mamas-cupcakes-for",
+    "http://wheninatx.tumblr.com/post/21981983834/when-barley-swine-tells-you-the-wait-will-be-at",
+    "http://wheninatx.tumblr.com/post/21911881201/when-you-found-out-trader-joes-was-coming-to",
+    "http://wheninatx.tumblr.com/post/21853861142/when-the-table-next-to-you-at-kerbey-lane-got",
+    "http://wheninatx.tumblr.com/post/21734832245/when-someone-tells-you-they-moved-to-austin-to",
+    "http://wheninatx.tumblr.com/post/21110460817/when-that-fucking-pay-station-keeps-saying-card-not",
+    "http://wheninatx.tumblr.com/post/21240900511/when-you-notice-the-price-of-that-margarita-at",
+    "http://wheninatx.tumblr.com/post/21111066650/when-its-150-degrees-at-stubbs-and-mother-nature",
+    "http://wheninatx.tumblr.com/post/21085072650/when-its-the-most-magical-day-and-somehow-there",
+    "http://wheninatx.tumblr.com/post/21083764467/when-it-rains-and-that-guy-in-a-truck-is-sure-he",
+    "http://wheninatx.tumblr.com/post/21044781830/when-you-got-on-the-upper-deck-of-35-on-accident",
+
 ]
 
 module.exports = (robot) ->
