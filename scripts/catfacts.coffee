@@ -101,4 +101,4 @@ facts = [
 module.exports = (robot) ->
 	robot.respond /CATFACT$/i, (msg) ->
 		randomIndex = Math.floor(Math.random() * facts.length);
-    msg.send facts[randomIndex];
+		msg.send facts[randomIndex];

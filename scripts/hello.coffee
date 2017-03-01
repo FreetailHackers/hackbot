@@ -25,7 +25,7 @@ module.exports = (robot) ->
     responses = [
         "Hey. What's up?",
         "*sigh* At your service.",
-        "What now?",
+        "What now?"
     ]
     randomIndex = Math.floor(Math.random() * responses.length);
     msg.send responses[randomIndex]
