@@ -13,7 +13,8 @@
     "hubot-scripts": "^2.17.2",
     "hubot-slack": "^4.3.2",
     "hubot-tweets": "0.0.1",
-    "xml2js": "^0.1.14"
+    "xml2js": "^0.1.14",
+    "jsdom": "0.2.14"
   },
   "engines": {
     "node": "0.10.x"
