@@ -53,15 +53,12 @@ responses = [
 
 module.exports = (robot) ->
   robot.respond /when(\s)?in(\s)?austin/i, (msg) ->
-    options = responses[Math.floor(Math.random() * responses.length)]
-
     # Random redirects us to another article, grab that url and respond.
-    http.get options, (res) ->
-      location = res.headers.location
-      jsdom.env location, [ 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' ], (errors, window) ->
-        (($) ->
-          title = $('meta[property="og:title"]').attr('content')
-          img = $('article p[align="center"] img').attr('src')
+    location = options = responses[Math.floor(Math.random() * responses.length)]
+    jsdom.env location, [ 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' ], (errors, window) ->
+      (($) ->
+        title = $('meta[property="og:title"]').attr('content')
+        img = $('article p[align="center"] img').attr('src')
 
-          msg.send title + ' ' + img
-        )(window.jQuery)
+        msg.send title + ' ' + img
+      )(window.jQuery)
