@@ -65,8 +65,7 @@ responses = [
     "http://wheninatx.tumblr.com/post/21111066650/when-its-150-degrees-at-stubbs-and-mother-nature",
     "http://wheninatx.tumblr.com/post/21085072650/when-its-the-most-magical-day-and-somehow-there",
     "http://wheninatx.tumblr.com/post/21083764467/when-it-rains-and-that-guy-in-a-truck-is-sure-he",
-    "http://wheninatx.tumblr.com/post/21044781830/when-you-got-on-the-upper-deck-of-35-on-accident",
-
+    "http://wheninatx.tumblr.com/post/21044781830/when-you-got-on-the-upper-deck-of-35-on-accident"
 ]
 
 module.exports = (robot) ->
