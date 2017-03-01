@@ -13,11 +13,11 @@ mornings = [
   "Good morning!"
 ]
 module.exports = (robot) ->
-  robot.hear /(hey|hi|hello|good( [d'])?ay(e)?)/i, (msg) ->
+  robot.respond /(^(hey )|^(hi )|^(hello )|good( [d'])?ay(e)?)/i, (msg) ->
     hello = msg.random hellos
     msg.send hello.replace "%", msg.message.user.name
 
-  robot.hear /(^(good )?m(a|o)rnin(g)?)/i, (msg) ->
+  robot.respond /(^(good )?m(a|o)rnin(g)?)/i, (msg) ->
     hello = msg.random mornings
     msg.send hello.replace "%", msg.message.user.name
 
@@ -29,8 +29,8 @@ module.exports = (robot) ->
     ]
     randomIndex = Math.floor(Math.random() * responses.length);
     msg.send responses[randomIndex]
-    
-  robot.hear /wave hubot/i, (msg) ->
+
+  robot.hear /wave hackbot/i, (msg) ->
     responses = [
         "Hey. What's up?",
         "*sigh* At your service.",
