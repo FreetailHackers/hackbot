@@ -6,19 +6,10 @@ hellos = [
   "Hi!",
   "Hi, %"
 ]
-mornings = [
-  "Good morning, %",
-  "Good morning to you too, %",
-  "Morning!",
-  "Good morning!"
-]
-module.exports = (robot) ->
-  robot.respond /(^(hey )|^(hi )|^(hello )|good( [d'])?ay(e)?)/i, (msg) ->
-    hello = msg.random hellos
-    msg.send hello.replace "%", msg.message.user.name
 
-  robot.respond /(^(good )?m(a|o)rnin(g)?)/i, (msg) ->
-    hello = msg.random mornings
+module.exports = (robot) ->
+  robot.hear /(hey hackbot|hi hackbot|hello hackbot|)/i, (msg) ->
+    hello = msg.random hellos
     msg.send hello.replace "%", msg.message.user.name
 
   robot.respond /where are you?/i, (msg) ->
