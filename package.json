@@ -8,6 +8,7 @@
     "hubot": "^2.19.0",
     "hubot-answers": "^0.2.1",
     "hubot-ask": "0.0.1",
+    "hubot-epichal": "^0.1.2",
     "hubot-help": "^0.2.0",
     "hubot-heroku-keepalive": "^1.0.2",
     "hubot-redis-brain": "0.0.3",

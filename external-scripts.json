@@ -4,5 +4,6 @@
   "hubot-redis-brain",
   "hubot-ask",
   "hubot-answers",
-  "hubot-tweets"
+  "hubot-tweets",
+  "hubot-epichal"
 ]
